@@ -1,9 +1,9 @@
-const images = ["0.jpeg", "1.jpeg", "2.jpeg"];
+// const images = ["0.jpg", "1.jpg", "2.jpg"];
 
-const chosenIamge = images[Math.floor(Math.random() * images.length)];
+// const chosenIamge = images[Math.floor(Math.random() * images.length)];
 
-const bgIamge = document.createElement("img");
+// const bgIamge = document.createElement("img");
 
-bgIamge.src = `img/${chosenIamge}`;
+// bgIamge.src = `img/${chosenIamge}`;
 
-document.body.appendChild(bgIamge);
+// document.body.appendChild(bgIamge);
