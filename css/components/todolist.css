@@ -1,0 +1,53 @@
+#list {
+  display: flex;
+}
+.listStyle {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 10px var(--shadow);
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.listStyle h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.listStyle input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "메이플스토리";
+}
+.listStyle ul {
+  overflow-y: scroll;
+  height: 400px;
+  width: 400px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.listStyle ul::-webkit-scrollbar {
+  display: none;
+}
+.listStyle li {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.listStyle button {
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.listStyle button:hover {
+  opacity: 1;
+}
