@@ -1,0 +1,32 @@
+#clock {
+  font-size: 80px;
+}
+
+#clockWrap {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 10px var(--shadow);
+  padding: 20px;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+#clockWrap span {
+  margin-left: 10px;
+  font-size: 40px;
+}
+#dateStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+.carendar {
+  font-size: 30px;
+  margin: 10px 0px;
+  display: flex;
+  text-shadow: 3px 3px 10px var(--shadow);
+}
