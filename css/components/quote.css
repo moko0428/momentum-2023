@@ -1,0 +1,7 @@
+#quote {
+  margin-top: 40px;
+}
+#quote span:first-child {
+  font-weight: 400;
+  margin-right: 10px;
+}
